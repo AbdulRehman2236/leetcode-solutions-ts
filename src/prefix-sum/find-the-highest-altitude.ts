@@ -7,7 +7,7 @@ between points i​​​​​​ and i + 1 for all (0 <= i < n). Return the hi
 
 */
 
-function largestAltitude(gain: number[]): number {
+export default function largestAltitude(gain: number[]): number {
   let altitude: number = 0;
   let maxAltitude: number = 0;
 
